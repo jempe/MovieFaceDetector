@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C62D786B29BFF6BB00891137 /* VideoFaceDetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62D786A29BFF6BB00891137 /* VideoFaceDetectorApp.swift */; };
+		C62D786D29BFF6BB00891137 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62D786C29BFF6BB00891137 /* ContentView.swift */; };
+		C62D786F29BFF6BC00891137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62D786E29BFF6BC00891137 /* Assets.xcassets */; };
+		C62D787229BFF6BC00891137 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62D787129BFF6BC00891137 /* Preview Assets.xcassets */; };
+		C62D787D29BFF6BC00891137 /* VideoFaceDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62D787C29BFF6BC00891137 /* VideoFaceDetectorTests.swift */; };
+		C62D788729BFF6BC00891137 /* VideoFaceDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62D788629BFF6BC00891137 /* VideoFaceDetectorUITests.swift */; };
+		C62D788929BFF6BC00891137 /* VideoFaceDetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62D788829BFF6BC00891137 /* VideoFaceDetectorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C62D787929BFF6BC00891137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62D785F29BFF6BB00891137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C62D786629BFF6BB00891137;
+			remoteInfo = VideoFaceDetector;
+		};
+		C62D788329BFF6BC00891137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62D785F29BFF6BB00891137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C62D786629BFF6BB00891137;
+			remoteInfo = VideoFaceDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C62D786729BFF6BB00891137 /* VideoFaceDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoFaceDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62D786A29BFF6BB00891137 /* VideoFaceDetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFaceDetectorApp.swift; sourceTree = "<group>"; };
+		C62D786C29BFF6BB00891137 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C62D786E29BFF6BC00891137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C62D787129BFF6BC00891137 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C62D787329BFF6BC00891137 /* VideoFaceDetector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoFaceDetector.entitlements; sourceTree = "<group>"; };
+		C62D787829BFF6BC00891137 /* VideoFaceDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoFaceDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62D787C29BFF6BC00891137 /* VideoFaceDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFaceDetectorTests.swift; sourceTree = "<group>"; };
+		C62D788229BFF6BC00891137 /* VideoFaceDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoFaceDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62D788629BFF6BC00891137 /* VideoFaceDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFaceDetectorUITests.swift; sourceTree = "<group>"; };
+		C62D788829BFF6BC00891137 /* VideoFaceDetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFaceDetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C62D786429BFF6BB00891137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62D787529BFF6BC00891137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62D787F29BFF6BC00891137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C62D785E29BFF6BB00891137 = {
+			isa = PBXGroup;
+			children = (
+				C62D786929BFF6BB00891137 /* VideoFaceDetector */,
+				C62D787B29BFF6BC00891137 /* VideoFaceDetectorTests */,
+				C62D788529BFF6BC00891137 /* VideoFaceDetectorUITests */,
+				C62D786829BFF6BB00891137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C62D786829BFF6BB00891137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C62D786729BFF6BB00891137 /* VideoFaceDetector.app */,
+				C62D787829BFF6BC00891137 /* VideoFaceDetectorTests.xctest */,
+				C62D788229BFF6BC00891137 /* VideoFaceDetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62D786929BFF6BB00891137 /* VideoFaceDetector */ = {
+			isa = PBXGroup;
+			children = (
+				C62D786A29BFF6BB00891137 /* VideoFaceDetectorApp.swift */,
+				C62D786C29BFF6BB00891137 /* ContentView.swift */,
+				C62D786E29BFF6BC00891137 /* Assets.xcassets */,
+				C62D787329BFF6BC00891137 /* VideoFaceDetector.entitlements */,
+				C62D787029BFF6BC00891137 /* Preview Content */,
+			);
+			path = VideoFaceDetector;
+			sourceTree = "<group>";
+		};
+		C62D787029BFF6BC00891137 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C62D787129BFF6BC00891137 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C62D787B29BFF6BC00891137 /* VideoFaceDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C62D787C29BFF6BC00891137 /* VideoFaceDetectorTests.swift */,
+			);
+			path = VideoFaceDetectorTests;
+			sourceTree = "<group>";
+		};
+		C62D788529BFF6BC00891137 /* VideoFaceDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C62D788629BFF6BC00891137 /* VideoFaceDetectorUITests.swift */,
+				C62D788829BFF6BC00891137 /* VideoFaceDetectorUITestsLaunchTests.swift */,
+			);
+			path = VideoFaceDetectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C62D786629BFF6BB00891137 /* VideoFaceDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62D788C29BFF6BC00891137 /* Build configuration list for PBXNativeTarget "VideoFaceDetector" */;
+			buildPhases = (
+				C62D786329BFF6BB00891137 /* Sources */,
+				C62D786429BFF6BB00891137 /* Frameworks */,
+				C62D786529BFF6BB00891137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoFaceDetector;
+			productName = VideoFaceDetector;
+			productReference = C62D786729BFF6BB00891137 /* VideoFaceDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C62D787729BFF6BC00891137 /* VideoFaceDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62D788F29BFF6BC00891137 /* Build configuration list for PBXNativeTarget "VideoFaceDetectorTests" */;
+			buildPhases = (
+				C62D787429BFF6BC00891137 /* Sources */,
+				C62D787529BFF6BC00891137 /* Frameworks */,
+				C62D787629BFF6BC00891137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C62D787A29BFF6BC00891137 /* PBXTargetDependency */,
+			);
+			name = VideoFaceDetectorTests;
+			productName = VideoFaceDetectorTests;
+			productReference = C62D787829BFF6BC00891137 /* VideoFaceDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C62D788129BFF6BC00891137 /* VideoFaceDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62D789229BFF6BC00891137 /* Build configuration list for PBXNativeTarget "VideoFaceDetectorUITests" */;
+			buildPhases = (
+				C62D787E29BFF6BC00891137 /* Sources */,
+				C62D787F29BFF6BC00891137 /* Frameworks */,
+				C62D788029BFF6BC00891137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C62D788429BFF6BC00891137 /* PBXTargetDependency */,
+			);
+			name = VideoFaceDetectorUITests;
+			productName = VideoFaceDetectorUITests;
+			productReference = C62D788229BFF6BC00891137 /* VideoFaceDetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C62D785F29BFF6BB00891137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C62D786629BFF6BB00891137 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C62D787729BFF6BC00891137 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C62D786629BFF6BB00891137;
+					};
+					C62D788129BFF6BC00891137 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C62D786629BFF6BB00891137;
+					};
+				};
+			};
+			buildConfigurationList = C62D786229BFF6BB00891137 /* Build configuration list for PBXProject "VideoFaceDetector" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C62D785E29BFF6BB00891137;
+			productRefGroup = C62D786829BFF6BB00891137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C62D786629BFF6BB00891137 /* VideoFaceDetector */,
+				C62D787729BFF6BC00891137 /* VideoFaceDetectorTests */,
+				C62D788129BFF6BC00891137 /* VideoFaceDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C62D786529BFF6BB00891137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62D787229BFF6BC00891137 /* Preview Assets.xcassets in Resources */,
+				C62D786F29BFF6BC00891137 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62D787629BFF6BC00891137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62D788029BFF6BC00891137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C62D786329BFF6BB00891137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62D786D29BFF6BB00891137 /* ContentView.swift in Sources */,
+				C62D786B29BFF6BB00891137 /* VideoFaceDetectorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62D787429BFF6BC00891137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62D787D29BFF6BC00891137 /* VideoFaceDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62D787E29BFF6BC00891137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62D788729BFF6BC00891137 /* VideoFaceDetectorUITests.swift in Sources */,
+				C62D788929BFF6BC00891137 /* VideoFaceDetectorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C62D787A29BFF6BC00891137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C62D786629BFF6BB00891137 /* VideoFaceDetector */;
+			targetProxy = C62D787929BFF6BC00891137 /* PBXContainerItemProxy */;
+		};
+		C62D788429BFF6BC00891137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C62D786629BFF6BB00891137 /* VideoFaceDetector */;
+			targetProxy = C62D788329BFF6BC00891137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C62D788A29BFF6BC00891137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C62D788B29BFF6BC00891137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C62D788D29BFF6BC00891137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VideoFaceDetector/VideoFaceDetector.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoFaceDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = A5T9X3NS8C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jempe.VideoFaceDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C62D788E29BFF6BC00891137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VideoFaceDetector/VideoFaceDetector.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoFaceDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = A5T9X3NS8C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jempe.VideoFaceDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C62D789029BFF6BC00891137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5T9X3NS8C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jempe.VideoFaceDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoFaceDetector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VideoFaceDetector";
+			};
+			name = Debug;
+		};
+		C62D789129BFF6BC00891137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5T9X3NS8C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jempe.VideoFaceDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoFaceDetector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VideoFaceDetector";
+			};
+			name = Release;
+		};
+		C62D789329BFF6BC00891137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5T9X3NS8C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jempe.VideoFaceDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VideoFaceDetector;
+			};
+			name = Debug;
+		};
+		C62D789429BFF6BC00891137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5T9X3NS8C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jempe.VideoFaceDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VideoFaceDetector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C62D786229BFF6BB00891137 /* Build configuration list for PBXProject "VideoFaceDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62D788A29BFF6BC00891137 /* Debug */,
+				C62D788B29BFF6BC00891137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62D788C29BFF6BC00891137 /* Build configuration list for PBXNativeTarget "VideoFaceDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62D788D29BFF6BC00891137 /* Debug */,
+				C62D788E29BFF6BC00891137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62D788F29BFF6BC00891137 /* Build configuration list for PBXNativeTarget "VideoFaceDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62D789029BFF6BC00891137 /* Debug */,
+				C62D789129BFF6BC00891137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62D789229BFF6BC00891137 /* Build configuration list for PBXNativeTarget "VideoFaceDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62D789329BFF6BC00891137 /* Debug */,
+				C62D789429BFF6BC00891137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C62D785F29BFF6BB00891137 /* Project object */;
+}
