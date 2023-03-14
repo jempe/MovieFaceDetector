@@ -1,10 +1,12 @@
 import SwiftUI
 import AVKit
 import Vision
+import Combine
 
 struct ContentView: View {
     @StateObject var viewModel = VideoViewModel()
-    
+    var cancellables = Set<AnyCancellable>()
+
     var body: some View {
         VStack {
             VideoPlayer(player: viewModel.player)
@@ -13,7 +15,7 @@ struct ContentView: View {
                     viewModel.startPlayback()
                 }
         }
-        .onReceive(viewModel.faceObservations) { faceObservations in
+        .onReceive(viewModel.faceObservationsPublisher) { faceObservations in
             viewModel.drawFaces(on: faceObservations)
         }
     }
@@ -22,6 +24,9 @@ struct ContentView: View {
 class VideoViewModel: ObservableObject {
     @Published var player: AVPlayer = AVPlayer()
     @Published var faceObservations: [VNFaceObservation] = []
+    var faceObservationsPublisher: AnyPublisher<[VNFaceObservation], Never> {
+        $faceObservations.eraseToAnyPublisher()
+    }
     
     private var videoPlayer: AVPlayer?
     private var videoPlayerLayer: AVPlayerLayer?
@@ -95,6 +100,7 @@ class VideoViewModel: ObservableObject {
             faceLayer.frame = CGRect(x: x, y: y, width: width, height: height)
             faceLayer.borderWidth = 2
             faceLayer.borderColor = CGColor(red: 1, green: 0, blue: 0, alpha: 1)
+            
             playerLayer.addSublayer(faceLayer)
         }
     }
